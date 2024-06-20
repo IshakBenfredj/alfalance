@@ -1,0 +1,57 @@
+@font-face {
+  font-family: ol;
+  src: url(assets/fonts/ol.otf);
+}
+@font-face {
+  font-family: or;
+  src: url(assets/fonts/or.otf);
+}
+@font-face {
+  font-family: om;
+  src: url(assets/fonts/om.otf);
+}
+
+* {
+  font-family: ol;
+  color: #333;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.or {
+  font-family: or;
+}
+.om {
+  font-family: om;
+}
+.ol {
+  font-family: ol;
+}
+
+.bf {
+  backdrop-filter: blur(3px);
+}
+
+body,
+.weff {
+  background-image: url("./assets/effect.png");
+  background-repeat: repeat;
+  background-size: contain;
+}
+#about,
+#services,
+.eff {
+  background-image: url("./assets/grayBg.png");
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.invert {
+  -webkit-filter: invert(100%);
+}
+
+.tw {
+  color: white;
+}
